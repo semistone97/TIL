@@ -11,5 +11,5 @@
 ## **쿼리 정리**
 - PRIMARY KEY
 - AUTO_INCREMENT: 자동채우기
-- WHERE '''asd''' IN(n,m,l,...)
+- WHERE ```asd``` IN(n,m,l,...)
 - WHERE <column> LIKE
