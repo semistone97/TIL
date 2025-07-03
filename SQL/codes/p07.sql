@@ -20,6 +20,10 @@ SELECT
 	TIMESTAMPDIFF(YEAR, birth, CURDATE()) AS 나이,
 -- 점수(소수1자리 반올림_ NULL -> 0)
 	IFNULL(ROUND(score, 1),0) AS 점수,
+    
+    # IF(score IS NOT NULL, ROUND(score, 1), 0) AS 점수
+    # COALESCE(ROUND(score, 1), 0) AS 점수
+    
 -- 등급, (A 90 B 80 C 70)
 	CASE
 		WHEN score >= 90 THEN 'A'
