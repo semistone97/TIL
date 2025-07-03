@@ -18,4 +18,4 @@
 > 고객정보와 주문정보를 한 번에 보려면, JOIN!
 ---
 ## JOIN의 종류
-![이렇게](이미지_URL_or_경로https://images.app.goo.gl/pKvdCnX8NCenBr9BA "툴팁(선택)")
+![이렇게](https://images.app.goo.gl/pKvdCnX8NCenBr9BA "툴팁(선택)")

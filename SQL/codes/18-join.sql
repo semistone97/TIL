@@ -120,3 +120,11 @@ LEFT JOIN sales s ON c.customer_id = s.customer_id
 GROUP BY c.customer_id;
 # Strict Mode는 c.customer_id,c.customer_name, c.customer_type를 전부 넣는 게 맞음
 # aggr 아닌 컬럼은 전부 그룹핑 해주도록 하세요.
+
+# 등급과 구매액 평균
+SELECT
+	c.customer_type AS 등급,
+    AVG(s.total_amount) AS 평균구매액
+FROM customers c
+INNER JOIN sales s ON c.customer_id = s.customer_id
+GROUP BY c.customer_type;
