@@ -19,3 +19,5 @@
 ---
 ## JOIN의 종류
 ![이렇게](https://images.app.goo.gl/pKvdCnX8NCenBr9BA "툴팁(선택)")
+
+> 아무리 좋은 정렬도, 개구린 탐색보다 별로다
